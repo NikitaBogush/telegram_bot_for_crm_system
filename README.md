@@ -1,6 +1,6 @@
 # Telegram-бот для [CRM-системы](https://github.com/NikitaBogush/crm_system)
 
-![Static Badge](https://img.shields.io/badge/python-3.10-blue?style=for-the-badge) ![Static Badge](https://img.shields.io/badge/python-telegram-bot-21.3-blue?style=for-the-badge) ![Static Badge](https://img.shields.io/badge/aioschedule-0.5.2-blue?style=for-the-badge) 
+![Static Badge](https://img.shields.io/badge/python-3.10-blue?style=for-the-badge) ![Static Badge](https://img.shields.io/badge/python_telegram_bot-21.3-blue?style=for-the-badge) ![Static Badge](https://img.shields.io/badge/aioschedule-0.5.2-blue?style=for-the-badge) 
 
 #### Данный Telegram-бот предназначен для ежедневной отправки сообщения со статистикой за вчерашний день Лидов/Продаж/Суммы сделок. Бот разработан для данной [CRM-системы](https://github.com/NikitaBogush/crm_system). 
 
@@ -14,7 +14,7 @@
   ```
   cd telegram_bot_for_crm_system
   ```  
-* Получаем информацию о сети проекта CRM-системы в Docker. 
+* Получаем информацию о сети проекта CRM-системы в Docker 
   ```
   docker network inspect crm_system_default
   ```
@@ -33,7 +33,7 @@
   USERNAME - имя суперпользователя
   PASSWORD - пароль суперпользователя
   TOKEN - токен вашего Telegram-бота
-  CHAT_ID - ID пользователя в Telegram, которому отправляются сообщения
+  CHAT_ID - ID чата пользователя в Telegram, которому отправляются сообщения
   IPV4ADDRESS - значение ключа "IPv4Address", которое было получено ранее
   ```
 * Создаем образ Docker
