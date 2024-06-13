@@ -13,11 +13,11 @@ from telegram import Bot
 
 load_dotenv()
 
-IPv4Address = os.getenv("IPV4ADDRESS")
+Gateway = os.getenv("GATEWAY")
 # эндпоинт со списком лидов за вчерашний день:
-URL_LEADS = f"http://{IPv4Address}/api/leads"
+URL_LEADS = f"http://{Gateway}/api/leads"
 # эндпоинт со списком сделок за вчерашний день:
-URL_DEALS = f"http://{IPv4Address}/api/deals"
+URL_DEALS = f"http://{Gateway}/api/deals"
 # параметры, которые передаем в запросе:
 headers = {
     "Authorization": os.getenv("AUTHORIZATION_TOKEN"),
