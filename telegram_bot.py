@@ -64,7 +64,7 @@ async def send_message():
     await bot.send_message(chat_id, text)
 
 
-# делаем отправку сообщения ежедневно в 10:00:
+# делаем отправку сообщения ежедневно в 10:00 UTC:
 schedule.every().day.at("10:00").do(send_message)
 loop = asyncio.get_event_loop()
 while True:
